@@ -290,7 +290,4 @@ a {
 
 .right {
 	width: 80%;
-	column-rule-width: thin;
-	column-rule-style: solid;
-	column-rule-color: #000000;
 }
