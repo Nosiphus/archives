@@ -255,16 +255,33 @@ h1 {
 
 p {
 	color: #7dc7ea;
-	text-align: center;
+	text-align: left;
 	font-size: 20px;
 	line-height:28px;
+	word-wrap: break-word;
 }
 a {
 	color: #2aabdf;
 	text-decoration: none;
 }
+
+#logoholder {
+	background-color: #ffffff;
+	border-bottom-width: thin;
+	border-bottom-style: solid;
+	border-bottom-color: #000000;
+}
+
+.row {
+	display: flex;
+	padding: 0;
+	margin-bottom: 10px;
+}
+
 .column {
-	float: left;
+	background-color: #ffffff;
+	padding-right: 20px;
+	margin-bottom: 10px;
 }
 
 .left {
@@ -273,15 +290,7 @@ a {
 
 .right {
 	width: 80%;
-}
-
-#content-area {
-	background-color: #ffffff;
-}
-
-/* Clear floats after the columns */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
+	column-rule-width: thin;
+	column-rule-style: solid;
+	column-rule-color: #000000;
 }
