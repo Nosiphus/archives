@@ -275,6 +275,10 @@ a {
 	width: 80%;
 }
 
+#content-area {
+	background-color: #ffffff;
+}
+
 /* Clear floats after the columns */
 .row:after {
     content: "";
