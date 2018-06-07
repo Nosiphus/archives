@@ -261,6 +261,22 @@ p {
 	word-wrap: break-word;
 }
 
+p.l {
+	color: #000000;
+	text-align: left;
+	font-size: 20px;
+	line-height:28px;
+	word-wrap: break-word;
+}
+
+span.b {
+	color: #0038FF;
+	text-align: left;
+	font-size: 20px;
+	line-height:28px;
+	word-wrap: break-word;
+}
+
 a {
 	color: #2aabdf;
 	text-decoration: none;
