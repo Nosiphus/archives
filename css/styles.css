@@ -277,6 +277,10 @@ span.b {
 	word-wrap: break-word;
 }
 
+span.red {
+	color: #FF0000;
+}
+
 a {
 	color: #2aabdf;
 	text-decoration: none;
